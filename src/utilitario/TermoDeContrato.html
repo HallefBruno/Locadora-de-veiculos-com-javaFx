@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Termo de contrato</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+	<script type="text/javascript">
+		function contrato() {
+			var nome = document.getElementById('nome').value;
+			document.write("<p align=center><strong>TERMOS E CONDIÇÕES GERAIS DE LOCAÇÃO DE VEÍCULOS</strong></center></p><br><center ><p align=center>Pelo presente instrumento particular de “Termos e Condições<br>Gerais de Locação de Veículos” (doravante designado<br>simplesmente “CONTRATO DE LOCAÇÃO”)LOCADORA E<br>LOCATÁRIO (especificados nos respectivos campos do<br>CONTRATO DE LOCAÇÃO) mutuamente acordam as seguintes<br>cláusulas, termos e condições que contemplam os direitos,<br>responsabilidades e obrigações das Partes em relação<br>à locação de veículos, diárias contratadas e situações<br>decorrentes desse processo.</p><br><br>Eu <strong> "+nome +" estou ciente das normas.</strong><br><br><br>Assinatura do cliente___________________________________________");
+		}
+		
+	</script>
+</head>
+	<body>
+		<fomr >
+			<p>Digite o nome do cliente:
+			<input type="text" id="nome"></input>
+			<button onclick="contrato()">Gerar contrato</button>
+		</fomr>
+	</body>
+</html>

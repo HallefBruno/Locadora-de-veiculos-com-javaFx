@@ -1,0 +1,14 @@
+.btnEntrar:hover {
+	-fx-background-color: blue;
+	-fx-text-fill: white;
+}
+
+.btnRegistro:hover {
+	-fx-background-color: green;
+	-fx-text-fill: white;
+}
+
+.btnSair:hover {
+	-fx-background-color: red;
+	-fx-text-fill: white;
+}
